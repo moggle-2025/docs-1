@@ -1,48 +1,54 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "CreatorDB API Documentation",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#FF6117",
+    "light": "#FF7B3E",
+    "dark": "#cf6332"
   },
-  "favicon": "/favicon.svg",
+  "fonts": {
+  "family": "Inter"
+  },
+  "favicon": "favicon.svg",
   "navigation": {
     "tabs": [
       {
         "tab": "Guides",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "Introduction",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
+              "overview",
+              "key_terms",
+              "the_basics",
+              "methods_and_parameters"
             ]
           },
           {
-            "group": "Customization",
+            "group": "User Guides",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
+              "user-guides/authentication",
+              "user-guides/getting_started",
+              {
+                "group": "Filter value reference",
+                "pages":[
+                  "user-guides/filter_value_references_overview",
+                  "user-guides/youtube_channel_categories",
+                  "user-guides/instagram_categories",
+                  "user-guides/country_code",
+                  "user-guides/language_code",
+                  "user-guides/industry_list"
+                ]
+              },
+              "user-guides/api_credit_usage"
             ]
           },
           {
-            "group": "Writing content",
+            "group": "Troubleshooting and FAQs",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
+              "troubleshooting/faqs",
+              "troubleshooting/common_error_codes"
             ]
           }
         ]
@@ -50,35 +56,39 @@
       {
         "tab": "API reference",
         "groups": [
+        
           {
             "group": "API documentation",
             "pages": [
               "api-reference/introduction"
             ]
+            
           },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
+            {
+            "group": "API reference",
+            "openapi": "api-reference/creatordb_openapi.yaml"
           }
         ]
       }
     ],
+    
+    
     "global": {
       "anchors": [
         {
           "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
+          "href": "https://knowledge.creatordb.app/",
           "icon": "book-open-cover"
         },
         {
           "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
+          "href": "https://creatordb.app/blog-3/",
           "icon": "newspaper"
+        },
+        {
+          "anchor": "Changelog",
+          "href": "/api-reference/changelog",
+          "icon": "history"
         }
       ]
     }
@@ -91,7 +101,7 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:support@creatordb.app"
       }
     ],
     "primary": {
@@ -114,9 +124,10 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "instagram": "https://www.instagram.com/creatordb.app/?hl=en",
+      "facebook": "https://www.facebook.com/creatordbapp/",
+      "linkedin": "https://tw.linkedin.com/company/creatordb"
+
     }
   }
 }
