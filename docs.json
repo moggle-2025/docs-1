@@ -55,21 +55,24 @@
       },
       {
         "tab": "API reference",
-        "versions": [
-          {
-            "version": "2.0",
-            "groups": [
+        "groups": [
+        
           {
             "group": "API documentation",
             "pages": [
               "api-reference/introduction"
             ]
+            
           },
             {
             "group": "API reference",
-            "openapi": "api-reference/openapi_v2.yaml"
+            "openapi": "api-reference/creatordb_openapi.yaml"
           }
-        ],
+        ]
+      }
+    ],
+    
+    
     "global": {
       "anchors": [
         {
@@ -121,9 +124,10 @@
   },
   "footer": {
     "socials": {
-      "instagram" : "https://www.instagram.com/creatordb.app/?hl=en",
-      "facebook" : "https://www.facebook.com/creatordbapp/",
-      "linkedin" : "https://tw.linkedin.com/company/creatordb"
+      "instagram": "https://www.instagram.com/creatordb.app/?hl=en",
+      "facebook": "https://www.facebook.com/creatordbapp/",
+      "linkedin": "https://tw.linkedin.com/company/creatordb"
+
     }
   }
 }
