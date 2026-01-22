@@ -1,0 +1,13 @@
+.nav-logo img {
+  height: 70px; /* Adjust to your preferred size */
+  width: auto;
+}
+
+#navbar {
+  background: #ffffff;
+  padding: 0.5rem;
+}
+
+footer {
+  margin-top: 2rem;
+}

@@ -111,8 +111,15 @@
       ]
     }
   },
+  "errors": {
+  "404": {
+    "redirect": false,
+    "title": "We can't find that page ",
+    "description": "What **happened** to this _page_?"
+  }
+}
   "logo": {
-    "light": "/logo/light.svg",
+    "light": "/logo/light.png",
     "dark": "/logo/dark.svg"
   },
   "navbar": {
