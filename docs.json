@@ -86,7 +86,7 @@
       }
     ]
           }
-        ]
+        ],
     "global": {
       "anchors": [
         {
@@ -141,7 +141,6 @@
       "instagram": "https://www.instagram.com/creatordb.app/?hl=en",
       "facebook": "https://www.facebook.com/creatordbapp/",
       "linkedin": "https://tw.linkedin.com/company/creatordb"
-
     }
   }
 }
