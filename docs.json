@@ -1,6 +1,9 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
+  "styling": {
+    "css": "style.css"
+  },
   "name": "CreatorDB API Documentation",
   "colors": {
     "primary": "#FF6117",
@@ -117,7 +120,7 @@
     "title": "We can't find that page ",
     "description": "What **happened** to this _page_?"
   }
-}
+},
   "logo": {
     "light": "/logo/light.png",
     "dark": "/logo/dark.svg"
