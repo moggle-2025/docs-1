@@ -3141,7 +3141,7 @@ paths:
     get:
       tags:
         - Instagram
-      summary: Instagram Basic + Historical
+      summary: Instagram Historical Data
       description: ''
       operationId: ''
       parameters:
@@ -3890,7 +3890,7 @@ paths:
     get:
       tags:
         - TikTok
-      summary: TikTok Basic + Historical
+      summary: TikTok Historical Data
       description: ''
       operationId: ''
       parameters:
@@ -4754,7 +4754,7 @@ paths:
     get:
       tags:
         - Threads
-      summary: Threads Basic + Historical
+      summary: Threads Historical Data
       description: ''
       operationId: ''
       parameters:
@@ -5614,7 +5614,7 @@ paths:
     get:
       tags:
         - Facebook
-      summary: Facebook Basic + Historical
+      summary: Facebook Historical Data
       description: ''
       operationId: ''
       parameters:

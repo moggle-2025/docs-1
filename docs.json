@@ -55,14 +55,28 @@
       },
       {
         "tab": "API reference",
-        "groups": [
-        
+        "versions": [
+          {
+            "version": "2.0",
+            "groups": [
           {
             "group": "API documentation",
             "pages": [
               "api-reference/introduction"
             ]
-            
+          },
+            {
+            "group": "API reference",
+            "openapi": "api-reference/openapi_v2.yaml"
+          },
+          {
+            "version": "3.0",
+            "groups": [
+          {
+            "group": "API documentation",
+            "pages": [
+              "api-reference/introduction"
+            ]
           },
             {
             "group": "API reference",
@@ -70,9 +84,9 @@
           }
         ]
       }
-    ],
-    
-    
+    ]
+          }
+        ]
     "global": {
       "anchors": [
         {
