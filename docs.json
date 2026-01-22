@@ -80,7 +80,7 @@
           },
             {
             "group": "API reference",
-            "openapi": "api-reference/creatordb_openapi.yaml"
+            "openapi": "api-reference/openapi_v3.yaml"
           }
         ]
       }
@@ -138,9 +138,9 @@
   },
   "footer": {
     "socials": {
-      "instagram": "https://www.instagram.com/creatordb.app/?hl=en",
-      "facebook": "https://www.facebook.com/creatordbapp/",
-      "linkedin": "https://tw.linkedin.com/company/creatordb"
+      "instagram" : "https://www.instagram.com/creatordb.app/?hl=en",
+      "facebook" : "https://www.facebook.com/creatordbapp/",
+      "linkedin" : "https://tw.linkedin.com/company/creatordb"
     }
   }
 }
